@@ -1,0 +1,56 @@
+.container{
+    margin:10px 15px;
+    padding: 5px 10px;
+}
+
+.card{
+    border: 1px solid grey;
+    width: 600px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.card-content{
+    height: 200px;
+    text-align: center;
+}
+
+.lyric-button{
+    position: relative;
+    text-decoration: none;
+    padding: 5px 80px;
+    color: green;
+    border: 1px solid;
+    margin-top: 20px;
+}
+
+.lyric-button:hover{
+    background-color:#009900;
+    color: white;
+}   
+
+.btn-container{
+    margin-top: 45px;
+}
+
+.album-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+#heart:hover{
+    color:red;
+    cursor: pointer;
+}

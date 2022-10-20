@@ -1,0 +1,36 @@
+.favorite-card{
+    border: 1px solid grey;
+    width: 600px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+    background-color: #AD974F;
+    color: white;
+}
+.favorite-card-content{
+    height: 200px;
+    text-align: center;
+}
+
+.favorite-lyric-button{
+    color: #EAEAEA;
+    border: 1px solid #8E793E;
+    text-decoration: none;
+    padding: 5px 80px;
+}
+
+.favorite-lyric-button:hover{
+    color:#231F20;
+}
+
+.favorite-album-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#delete{
+    cursor: pointer;
+}

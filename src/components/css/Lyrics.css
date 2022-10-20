@@ -1,0 +1,40 @@
+.lyrics-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-container{
+    width: 600px;
+    border: 1px solid #009900;
+    box-shadow: 2px grey;
+}
+
+.header{
+    text-align: center;
+    font-weight: 500;
+    background-color: #009900;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+.lyrics{
+    font-weight: 350;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.back-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    color: #009900;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-right: 500px;
+}
